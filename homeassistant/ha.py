@@ -91,7 +91,7 @@ if __name__ == "__main__":
             print(f"Error reading sensor values: {e}")
             error = True
     
-        sys.stdout.flushe()
+        sys.stdout.flush()
         if error:
             # HT2000 starts misbehaving if it is pinged too often during
             # startup.
